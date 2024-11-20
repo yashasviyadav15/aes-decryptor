@@ -16,7 +16,7 @@ function AESDecryptor() {
     "tokenfromencrypt": "placeholder_for_encrypted_token",
     "tokenfrompaste": "placeholder_for_manual_token"
   }`);
-    const [tokenFromEncrypt, setTokenFromEncrypt] = useState("");
+    // const [tokenFromEncrypt, setTokenFromEncrypt] = useState("");
     const [tokenFromPaste, setTokenFromPaste] = useState("");
   // Decrypt function
   const handleDecrypt = () => {
