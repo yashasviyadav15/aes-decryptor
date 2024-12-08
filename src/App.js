@@ -180,8 +180,14 @@ function AESDecryptor() {
         />
       </div>
           <div>
-          <iframe src="https://www.google.com/maps/d/embed?mid=12A8sTSxr8RiCooN9VdDJ0IEcm8-51LA&ehbc=2E312F" width="640" height="480"></iframe>
-          </div>
+  <iframe
+    src="https://www.google.com/maps/d/embed?mid=12A8sTSxr8RiCooN9VdDJ0IEcm8-51LA&ehbc=2E312F"
+    width="640"
+    height="480"
+    title="Embedded Google Map"
+  ></iframe>
+</div>
+
      </>
   );
 }
