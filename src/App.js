@@ -140,7 +140,7 @@ function AESDecryptor() {
           type="text"
           placeholder="Enter token from encrypt"
           value={accessToken}
-          // onChange={(e) => setTokenFromEncrypt(e.target.value)}
+          onChange={(e) => setTokenFromEncrypt(e.target.value)}
           style={{ width: "100%", marginBottom: "10px", padding: "8px" }}
         />
       </div>
